@@ -42,7 +42,8 @@ h1 {
   transform: translateX(-400%);
 }
 
-.box-show {
+.box-show,
+.box-show:nth-of-type(even) {
   transform: translateX(0);
 }
 
